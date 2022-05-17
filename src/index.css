@@ -1,0 +1,16 @@
+td {
+  color: black;
+  border-radius: 15px;
+}
+
+table {
+  background-color: rgb(124, 255, 255);
+  border-radius: 15px;
+  font-size: larger;
+  max-width: 50%;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(68, 68, 68);
+}
