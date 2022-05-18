@@ -14,3 +14,28 @@ table {
 body {
   background-color: rgb(68, 68, 68);
 }
+
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  padding: 1.25rem 1.25rem;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: #FFFFFF;
+  color: #f50057;
+  border: 2px solid #f50057;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  border-radius: 25px;
+}
+
+.inner-btn {
+  padding: 25px;
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+
+import { gains } from "../genetic/geneticAlgo";
 
 const Gen = ({ gen }) => {
     var x = 0;
@@ -11,6 +12,7 @@ const Gen = ({ gen }) => {
                             <td scope='row' key={x++}>{val}</td>
                         )))}
                     </tr>
+                    <div>Total Gained Value = {gains(gen)}</div>
                 </tbody>
             </table>
         </div>
